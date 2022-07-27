@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .white {
-    color:rgb(71, 7, 53);
+    color:#470735;
     width: 25%;
     height: 75px;
     margin: 5px;
@@ -16,17 +16,22 @@
     text-align: center;
     position: relative;
     /* NEED TO INSERT HELLO KITTY BUTTON PIC AS BACKGROUND */
+
 }
+
 .pink {
     width: 25%;
     height: 75px;
     margin: 5px;
-    background-color: rgb(240, 11, 175);
+    background-color: #f00baf;
     color: white;
     padding: 10px;
     font-size: 40px;
     text-align: center;
     position: relative;
+}
+.pink:hover {
+    color:#470735;
 }
 .purple {
     width: 40%;
@@ -39,6 +44,10 @@
     text-align: center;
     position: relative;
     margin: .2rem;
+}
+.purple:hover {
+    background-color: #f00baf ;
+    color:#470735;
 }
 .long {
     width:75%;
@@ -80,4 +89,8 @@
     min-width: 300px;
     height: 30rem;
     
+}
+.equal:hover {
+    background-color: #d6a3f1;
+    color: white;
 }
