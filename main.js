@@ -1,24 +1,26 @@
-//make the values on the buttons appear in the display when the corresponding number is clicked
-// i need to make the "resultArea" hold/print every value of the buttons clicked
+console.log('javascript is linked!');
 
-//create a variable that links to the result in HTML
-let resultMessage = document.querySelector('#result');
+let calcButtons = document.querySelectorAll('.button');
+console.log('Buttons added', calcButtons);
+const display = document.getElementById('#display');
+console.log('display updated');
+//**all buttons have to have class button^^ */
 
-//create a variable that represents all buttons in the calculator
-let calcButton = document.querySelectorAll('.button');
-//make an event listener for whenever buttons are clicked, the inner HTML in "result" will be updated
-calcButton.addEventListener('click',function(){
-    let button = document.querySelectorAll('.button');
-        resultMessage.innerHTML = button.innerHTML;
+for (let button of calcButtons) {
+    button.addEventListener('click', (Event) => {
+        if (Event.target.id !== 'equals') {
+            display.inneText += Event.target.id;
+            console.log(Event.target.id);
+        } 
+        if (Event.target.id === 'clear') {
+            display.innerText = "";
+            console.log("That's how you clear it!");
+        }
+        if (Event.target.id === 'equals') {
+            let result = eval(display.innerText);
+            display.innerText = result;
+            console.log(result);
+            console.log('equals clicked');
+        }
+    });
 }
-
-
-//make functions to perform math operations based on the buttons pressed
-
-
-
-
-
-
-
-//make clicking the "=" sign result in the answer being shown in the display

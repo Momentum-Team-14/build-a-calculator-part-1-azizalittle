@@ -18,7 +18,10 @@
     /* NEED TO INSERT HELLO KITTY BUTTON PIC AS BACKGROUND */
 
 }
-
+.button {
+    cursor:pointer;
+    
+}
 .pink {
     width: 25%;
     height: 75px;
@@ -49,7 +52,7 @@
     background-color: #f00baf ;
     color:#470735;
 }
-.long {
+.display {
     width:75%;
     min-width: 250px;
     height: 75px;
@@ -76,7 +79,7 @@
     margin-left: -13rem;
     margin-top: -16rem;
 }
-.body {
+body {
     background-color: black;
     font-family: sans-serif; 
     /* NEED TO LINK COMIC SANS MS  */
@@ -94,3 +97,4 @@
     background-color: #d6a3f1;
     color: white;
 }
+

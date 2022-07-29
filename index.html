@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <script src="main.js"></script>
+    <meta name="viewport" content=width initial-scale=1.0>
+    <script src="main.js" defer ></script>
     <link rel="stylesheet" href="main.css" />
     <title>Build a Calculator</title>
 </head>
@@ -12,35 +12,35 @@
     <div class="container">
         <div class="calculator">
             <div class="row first">
-                <div class="button purple other" id="clear">C</div>
-                <div class="button long" id="resultArea">
-                    <span id="result">Answer</span></div>
-            </div>
+                <button type="button" class="button purple" id="clear">C</button>
+                <div class="display" id="display"></div>
+                </div>
             <div class="row second">
-                <div class="button white" id="num7">7</div>
-                <div class="button white" id="num8">8</div>
-                <div class="button white" id="num9">9</div>
-                <div class="button pink" id="divide">/</div>
+                <button type="button"  class="button white num" id="7" >7</button>
+                <button type="button" class="button white num" id="8">8</button>
+                <button type="button" class="button white num" id="9">9</button>
+                <button type="button" class="button pink op" id="divide">/</button>
             </div>
             <div class="row third">
-                <div class="button white" id="num4">4</div>
-                <div class="button white" id="num5">5</div>
-                <div class="button white" id="num6">6</div>
-                <div class="button pink" id="multiply">x</div>
+                <button type="button" class="button white num" id="4">4</button>
+                <button type="button" class="button white num" id="5">5</button>
+                <button type="button" class="button white num" id="6">6</button>
+                <button type="button" class="button pink op" id="multiply">x</button>
             </div>
             <div class="row fourth">
-                <div class="button white" id="num1">1</div>
-                <div class="button white" id="num2">2</div>
-                <div class="button white" id="num3">3</div>
-                <div class="button pink" id="subtract">-</div>
+                <button type="button" class="button white num" id="1">1</button>
+                <button type="button" class="button white num" id="2">2</button>
+                <button type="button" class="button white num" id="3">3</button>
+                <button type="button" class="button pink op" id="subtract">-</button>
             </div>
             <div class="row fifth">
-                <div class="button white" id="0">0</div>
-                <div class="button white" id="decimal">.</div>
-                <div class="button white equal" id="equals">=</div>
-                <div class="button pink" id="add">+</div>
+                <button type="button" class="button white num" id="0">0</button>
+                <button type="button" class="button white num" id="decimal">.</button>
+                <button type="button" class="button white equal" id="equals">=</button>
+                <button type="button" class="button pink op" id="add">+</button>
             </div>
         </div> 
     </div>
+    <script src="main.js" defer ></script>
 </body>
 </html>
