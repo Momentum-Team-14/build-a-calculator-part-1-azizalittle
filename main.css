@@ -1,0 +1,100 @@
+/*  */
+/* background: */
+/* url(https://i.pinimg.com/736x/01/f1/13/01f113f901f1f82df399237ffc35f857.jpg) center/cover; */
+*{
+    box-sizing: border-box;
+}
+.white {
+    color:#470735;
+    width: 25%;
+    height: 75px;
+    margin: 5px;
+    /* background-image: url(https://c.neh.tw/thumb/f/720/m2i8i8G6A0G6d3H7.jpg); */
+    background-color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    /* NEED TO INSERT HELLO KITTY BUTTON PIC AS BACKGROUND */
+
+}
+.button {
+    cursor:pointer;
+    
+}
+.pink {
+    width: 25%;
+    height: 75px;
+    margin: 5px;
+    background-color: #f00baf;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+.pink:hover {
+    color:#470735;
+}
+.purple {
+    width: 40%;
+    min-width: 80px;
+    height: 75px;
+    background-color: #d6a3f1;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    margin: .2rem;
+}
+.purple:hover {
+    background-color: #f00baf ;
+    color:#470735;
+}
+.display {
+    width:75%;
+    min-width: 250px;
+    height: 75px;
+    background-color: #41855E;
+    margin: .2rem;
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    color: white;
+    padding: 10px;
+
+}
+.row {
+     display: flex;
+     min-width: 350px;
+}
+.container {
+    background-color: #FCDBE5;
+    width: 26rem;
+    height: 32rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -13rem;
+    margin-top: -16rem;
+}
+body {
+    background-color: black;
+    font-family: sans-serif; 
+    /* NEED TO LINK COMIC SANS MS  */
+}
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    width: 80%;
+    min-width: 300px;
+    height: 30rem;
+    
+}
+.equal:hover {
+    background-color: #d6a3f1;
+    color: white;
+}
+
